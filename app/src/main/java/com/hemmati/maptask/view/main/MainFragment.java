@@ -327,6 +327,7 @@ public class MainFragment extends BaseFragment {
     private void focusOnLocation(LatLng latLng) {
         map.moveCamera(latLng, 0.25f);
         map.setZoom(15, 0.25f);
+
     }
 
     private void handlingBackButton() {
