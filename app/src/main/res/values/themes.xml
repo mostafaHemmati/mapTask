@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MapTask" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="GreyText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/darkGray</item>
+        <item name="fontFamily">@font/iransanswebfanum</item>
+    </style>
+
+    <style name="actionBtnStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/iransanswebfanum</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="blueActionBtnEnableStyle" parent="actionBtnStyle">
+        <item name="android:background">@drawable/blue_shape</item>
+        <item name="android:enabled">true</item>
+    </style>
+</resources>

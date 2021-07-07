@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">mapTask</string>
+    <string name="todo">TODO</string>
+    <string name="target_question">کجا می‌خوای بری؟</string>
+    <string name="exit_question">می‌خوای از برنامه خارج بشی؟</string>
+    <string name="search">جستجو</string>
+    <string name="exit">خروج</string>
+    <string name="km">کیلومتر</string>
+    <string name="lorem_ipsum">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</string>
+    <string name="yes">بله</string>
+    <string name="gps_active_msg">برای مسیریابی باید GPS فعال باشد.</string>
+    <string name="user_location_null_msg">برای مسیریابی باید مبدا سفر مشخص باشد!</string>
+    <string name="direction_error_msg">مسیریابی بین دو نقطه انجام میشود!</string>
+    <string name="notification_txt"> مسیریاب </string>
+    <string name="travel_end">\" پایان سفر \"</string>
+
+
+    <string-array name="fast_search_list">
+        <item>بیمارستان</item>
+        <item>رستوران</item>
+        <item>پمپ بنزین</item>
+        <item>دانشگاه</item>
+        <item>سرویس بهداشتی</item>
+        <item>پارکینگ</item>
+        <item>مرکز خرید</item>
+    </string-array>
+</resources>

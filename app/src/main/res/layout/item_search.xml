@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="8dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_red_location" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_title"
+            style="@style/GreyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLength="30"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+
+            app:layout_constraintEnd_toStartOf="@+id/iv"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView_km_num"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/lorem_ipsum" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_address"
+            style="@style/GreyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLength="40"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/iv"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView_km_num"
+            app:layout_constraintTop_toBottomOf="@+id/textView_title"
+            tools:text="@string/lorem_ipsum" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_type"
+            style="@style/GreyText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:maxLength="30"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView_km_txt"
+            app:layout_constraintTop_toBottomOf="@+id/textView_address"
+            tools:text="@string/lorem_ipsum" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_km_num"
+            style="@style/GreyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:visibility="gone"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            tools:text="1/9"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView_km_txt"
+            style="@style/GreyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:visibility="gone"
+            android:text="@string/km"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView_km_num"
+            app:layout_constraintStart_toStartOf="@+id/textView_km_num"
+            app:layout_constraintTop_toBottomOf="@+id/textView_km_num"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
